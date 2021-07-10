@@ -1,56 +1,97 @@
 <!DOCTYPE html>
 <nav lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jung's Portfolio</title>
-    <meta
-      name="description"
-      content="Portfolio for world-renowned software engineer Jung"
-    />
+    <meta name="description" content="Portfolio for world-renowned software engineer Jung" />
     <meta name="author" content="Jung" />
     <link rel="icon" type="image/png" href="image/favicon.png" />
-    <script
-      src="https://kit.fontawesome.com/dc3f436fee.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/dc3f436fee.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
     <!-- font-family: 'Open Sans', sans-serif; -->
   </head>
+
   <body></body>
   <!-- navbar section -->
   <nav id="navbar">
-  <div class="navbar__logo">
-    <i class="fab fa-diaspora"></i>
-    <a href="#">Jung</a>
+    <div class="navbar__logo">
+      <i class="fab fa-diaspora"></i>
+      <a href="#">Jung</a>
 
-    <ul class="navbar__menu">
-      <li class="navbar__menu__item">Home</li>
-      <li class="navbar__menu__item">About</li>
-      <li class="navbar__menu__item">Skills</li>
-      <li class="navbar__menu__item">My Work</li>
-      <li class="navbar__menu__item">Testimonial</li>
-      <li class="navbar__menu__item">Contact</li>
-    </ul>
-  </div>
-</nav>
-<!-- Home sectioin -->
-<section id="home">
-  <img src="image/Jung.png" alt="Jung's Profile Photo " class="home__avatar">
-  <h1 class="home__title">Hello, <br> I'm Jung</h1>
-  <h2 class="home__description">A Fullstack Developer currently residing in Washington D.C.</h2>
-  <button class="home__contact">CONTACT ME</button>
-</section>
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">Home</li>
+        <li class="navbar__menu__item">About</li>
+        <li class="navbar__menu__item">Skills</li>
+        <li class="navbar__menu__item">My Work</li>
+        <li class="navbar__menu__item">Testimonial</li>
+        <li class="navbar__menu__item">Contact</li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home sectioin -->
+  <section id="home">
+    <img src="image/Jung.png" alt="Jung's Profile Photo " class="home__avatar">
+    <h1 class="home__title">Hello, <br> I'm Jung</h1>
+    <h2 class="home__description">A Fullstack Developer currently residing in Washington D.C.</h2>
+    <button class="home__contact">CONTACT ME</button>
+  </section>
   <!-- about me section -->
-  <section id="about-me"></section>
+  <section id="about-me">
+    <h1>About me</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, inventore. Quaerat commodi quibusdam rem quod
+      mollitia facilis quis, quas , in totam nesciunt saepe cumque unde optio distinctio ipsa nemo assumenda.</p>
+    <div class="about__majors">
+      <div class="major">
+        <div class="major__icon">
+          <i class="fab fa-html5"></i>
+        </div>
+        <div class="major__title">Front-end</div>
+        <div class="major__description">
+          HTML, CSS, JavaScript,
+          <br> React, Web APIs
+        </div>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fas fa-mobile"></i>
+        </div>
+        <h2 class="major__title">Mobile</h2>
+        <p class="major__description">
+          Android, iOS, React Native, Flutter,
+          <br> Java, Swift, Kotlin
+        </p>
+      </div>
+      <div class="major">
+        <div class="major__icon">
+          <i class="fas fa-server"></i>
+        </div>
+        <h2 class="major__title">Back-end</h2>
+        <p class="major__description">
+          Java, JavaScript, Go, NodeJS
+          <br> Rest APIs, GraphGL
+        </p>
+      </div>
+    </div>
+    <div class="about__jobs">
+      <div class="job">
+        <img src="image/jobs/Peraton-logo.jpg" alt="Peraton" class="job__logo">
+        <p class="job__name">Currently working at Peraton as Cyber Systems Enginner</p>
+        <p class="job__period">2019 Sept - Present</p>
+      </div>
+      <div class="job">
+        <img src="image/jobs/booz-allen-logo.svg" alt="Booz-allen" class="job__logo">
+        <p class="job__name">Worked at Booz-Allen-Hamilton as a Security Consultant</p>
+        <p class="job__period">2018 Feb - 2019 Aug</p>
+      </div>
+    </div>
+  </section>
   <!-- skills section -->
   <section id="skills"></section>
   <!-- my work/portfolio section -->
@@ -59,4 +100,5 @@
   <section id="testimonials"></section>
   <!-- contact me section -->
   <section id="contact"></section>
-</html>
+
+  </html>
