@@ -14,8 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js" defer></script>
     <!-- font-family: 'Open Sans', sans-serif; -->
+    <script src="main.js" defer></script>
   </head>
 
   <body>
@@ -46,10 +46,12 @@
 
     <!-- Home sectioin -->
     <section id="home">
-      <img src="imgs/Jung.png" alt="Jung's Profile Photo " class="home__avatar">
-      <h1 class="home__title">Hello, <br> I'm Jung</h1>
-      <h2 class="home__description">A Fullstack Developer currently residing in Washington D.C.</h2>
-      <button class="home__contact">CONTACT ME</button>
+      <div class="home__container">
+        <img src="imgs/Jung.png" alt="Jung's Profile Photo " class="home__avatar">
+        <h1 class="home__title">Hello, <br> I'm Jung</h1>
+        <h2 class="home__description">A Fullstack Developer currently residing in Washington D.C.</h2>
+        <button class="home__contact">CONTACT ME</button>
+      </div>
     </section>
 
     <!-- about me section -->
@@ -206,21 +208,21 @@
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work__categories">
-          <button class="category__btn">
-            All <span class="category__count">8</span>
+          <button class="category__btn active" data-filter="*">
+            All <span class="catego ry__count">8</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="front-end">
             Front-end <span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="back-end">
             Back-end <span class="category__count">3</span>
           </button>
-          <button class="category__btn">
+          <button class="category__btn" data-filter="projects">
             Projects <span class="category__count">3</span>
           </button>
         </div>
         <div class="work__projects">
-          <a href="" class="project" target="blank">
+          <a href="" class="project" target="blank" data-type="front-end">
             <img src="imgs/projects/youtube.png" alt="Youtube" class="project__img" />
             <div class="project__description">
               <h3>Youtube Site</h3>
