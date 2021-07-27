@@ -20,7 +20,7 @@ navbarMenu.addEventListener("click", (event) => {
   const target = event.target;
   const link = target.dataset.link;
   if (link == null) {
-    return; 
+    return;
   }
   navbarMenu.classList.remove("open");
   // console.log(event.target.dataset.link);
@@ -92,17 +92,6 @@ workBtnContainer.addEventListener("click", (e) => {
     projectContainer.classList.remove("anim-out");
   }, 300);
 });
-
-// Remove selection from the previous item and select the new one
-// const active = document.querySelector(".category__btn.selected");
-// if (active != null) {
-//   active.classList.remove("selected");
-// }
-// e.target.classList.add("selected");
-// active.classList.remove("selected");
-// const target =
-//   e.target.nodeName === "BUTTON" ? e.target : e.target.parentNode;
-// target.classList.add("selected");
 
 function scrollIntoView(selector) {
   const scrollTo = document.querySelector(selector);

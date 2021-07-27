@@ -125,13 +125,13 @@ p {
   color: var(--color-white);
   cursor: pointer;
   border: 1px solid transparent;
-  border-radius: var(--size-border-radius);
   /* border-radius: var(--size-border-radius); */
 }
 
-/* .navbar__menu__item.active {
+.navbar__menu__item.active {
+  /* border-radius: var(--size-border-radius); */
   border: 1px solid var(--color-white);
-} */
+}
 
 .navbar__menu__item:hover {
   /* border: 1px solid var(--color-white);
@@ -244,7 +244,7 @@ p {
 }
 
 .job__margin {
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 .job__description {
@@ -557,7 +557,7 @@ p {
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-pink);
+    background-color: transparent;
   }
 
   #navbar.navbar-dark {
