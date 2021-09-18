@@ -18,6 +18,6 @@ I will also be adding testimonials sections after bootcamp is over.
 
 Thank you for reading! You can find my live porfolio in the link below. 😊
 
-# https://jung0808.github.io/Updated-Portfolio-Page-2/
+# https://jung0808.github.io/homework-16-Updated-Portfolio-Page-2/
 
-# https://github.com/jung0808/Updated-Portfolio-Page-2
+# https://github.com/jung0808/homework-16-Updated-Portfolio-Page-2
